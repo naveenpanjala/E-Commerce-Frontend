@@ -13,7 +13,7 @@ export default function Counter() {
 
   return (
     <div>
-   
+   hello
     </div>
   );
 }
