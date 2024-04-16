@@ -5,6 +5,7 @@ import "./index.css";
 import { Home } from "./pages/Home";
 import { LoginPage } from "./pages/LoginPage";
 import { SignupPage } from "./pages/SignupPage";
+import { CartPage } from "./pages/CartPage";
 function App() {
   const router = createBrowserRouter([
     {
@@ -18,6 +19,10 @@ function App() {
     {
       path: "/signup",
       element: <SignupPage></SignupPage>,
+    },
+    {
+      path:"/cart",
+      element:<CartPage></CartPage>
     },
   ]);
   return (
