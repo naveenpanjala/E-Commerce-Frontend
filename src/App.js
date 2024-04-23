@@ -7,6 +7,7 @@ import { LoginPage } from "./pages/LoginPage";
 import { SignupPage } from "./pages/SignupPage";
 import { CartPage } from "./pages/CartPage";
 import Checkout from "./pages/Checkout";
+import { ProductDetailPage } from "./pages/ProductDetailPage";
 function App() {
   const router = createBrowserRouter([
     {
@@ -28,6 +29,10 @@ function App() {
     {
       path:"/checkout",
       element:<Checkout></Checkout>
+    },
+    {
+      path:"/product-detail",
+      element:<ProductDetailPage></ProductDetailPage>
     },
   ]);
   return (
